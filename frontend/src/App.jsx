@@ -12,7 +12,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/generate",
+        "https://ai-app-compiler-jfik.onrender.com/generate",
         {
           prompt,
         }
