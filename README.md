@@ -18,12 +18,6 @@ https://ai-app-compiler-jfik.onrender.com
 
 ---
 
-## 📹 Demo Video
-
-Add your Loom video link here.
-
----
-
 ## 🏗️ Architecture
 
 ```text
