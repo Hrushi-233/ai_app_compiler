@@ -75,3 +75,10 @@ def generate(data: dict):
         "repair_logs": logs,
         "runtime_file": runtime_file
     }
+
+@app.get("/")
+def home():
+    return {
+        "status": "healthy",
+        "service": "AI App Compiler"
+    }
