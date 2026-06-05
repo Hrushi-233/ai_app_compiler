@@ -10,10 +10,13 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
+from fastapi.middleware.cors import CORSMiddleware
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173"
+        "http://localhost:5173",
+        "https://ai-app-compiler-eight-delta.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
